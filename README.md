@@ -1,21 +1,16 @@
 # java_recruit
 
-### create a new repository on the command line
+``` c
+git clone https://github.com/liu578/test.git
 
-echo "# java_recruit" >> README.md 
+git status
+git add
+git commit -m "first commit" //提交到本地源码库，并附加提交注释
+git push
+```
 
-git init
 
-git add README.md
 
-git commit -m "first commit"
 
-git remote add origin git@github.com:liu578/java_recruit.git
 
-git push -u origin master
 
-### push an existing repository from the command line
-
-git remote add origin git@github.com:liu578/java_recruit.git
-
-git push -u origin master
