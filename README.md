@@ -1,11 +1,11 @@
-# java_recruit
+# gittest
 
 > common use
 ```c
 git clone https://github.com/liu578/java_recruit.git
 git add . //add all documents in pwd
 git commit -m "updated commit" //submit to local repository
-git push
+git push //upload to remote repository
 ```
 
 >manual
