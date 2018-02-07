@@ -14,7 +14,7 @@ git push //upload to remote repository
 git push origin master：refs/for/master
 
 git remote add origin https://github.com/liu578/java_recruit.git //name the remote repository address as origin
-git push -u origin master //push local repository to remote
+git push -u origin master //将本地的master分支推送到origin主机，同时指定origin为默认主机，后面就可以不加任何参数使用git push了 所以第一次push用-u 之后直接git push即可
 
 git add README.md
 git config --list //查看配置信息
