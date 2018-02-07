@@ -1,18 +1,23 @@
 # java_recruit
 
-> git manual
-
+> common use
 ```c
 git clone https://github.com/liu578/java_recruit.git
 git add README.md
 git commit -m "updated commit" //submit to local repository
-git remote add origin https://github.com/liu578/java_recruit.git //name the remote repository address as origin
-git push -u origin master //push local repository to remote
+git push
 ```
 
+>manual
 ```c
-git push origin master //把本地源码库push到Github上
-git pull origin master //从Github上pull到本地源码库
+git add . //添加当前目录中的所有文件
+
+//git push <远程主机名> <本地分支名>  <远程分支名>
+git push origin master：refs/for/master
+
+git remote add origin https://github.com/liu578/java_recruit.git //name the remote repository address as origin
+git push -u origin master //push local repository to remote
+
 git config --list //查看配置信息
 git status //查看项目状态信息
 git branch //查看项目分支
